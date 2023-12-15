@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Nunito:wght@800&display=swap');
+
+.Login_screen {
+    width: 1440px;
+    height: 1024px;
+    border: 1px solid #979797;
+    background: #FFF;
+    display: flex;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 230px;
+
+    input {
+        border: 1px solid transparent;
+        border-bottom-color: gray;
+        background: transparent;
+        display: flex;
+        width: 335px;
+        height: 36px;
+        padding: 4px 0px;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        color: #000;
+        margin: 47px 0;
+        padding: 0 5px;
+    }
+
+
+    p {
+        margin-top: -30px;
+        color: #5458EA;
+        font-family: Inter;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 120%;
+        &:hover {
+            text-decoration:underline ;
+        }
+    }
+
+    .btn1 {
+        border-radius: 80px;
+        background: #C0C0C0;
+        display: flex;
+        width: 335px;
+        height: 44px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border: none;
+        margin: 49px 0;
+        color: #FFF;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        &:hover {
+            background: #5458EA;
+            color: #FFF;
+        }
+    }
+
+    .btn2 {
+        background: transparent;
+        color: #5458EA;
+        display: flex;
+        width: 335px;
+        height: 44px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border: 2px dashed #5458EA;
+    }
+}
+
+.eye{
+    position: absolute;
+    left: 1270px;
+    top: 490px;
+}
